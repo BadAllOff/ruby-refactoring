@@ -1,7 +1,6 @@
-# Object-Oriented Design and Refactoring Patterns in Ruby
+# Refactoring Patterns in Ruby
 
-This project contains all the examples used in the respective course at Tuts+
-Premium. Each example contains:
+This project contains refactoring examples. Each one contains:
 
 * Two code sample files, _before_ and _after_ refactoring;
 * A test suite;
@@ -11,8 +10,6 @@ Premium. Each example contains:
     `BEFORE=1 rake test`;
   - To run the tests against the code sample _before_ refactoring, run `rake
     test`;
-
-## Course outline
 
 ### Object-oriented design
 
@@ -71,24 +68,3 @@ possible refactoring patterns to solve it.
   - Introduce Null Object
   - Replace Type Code with Polymorphism
   - Extract Method + Move Method
-
-### Refactoring Patterns
-
-* Extract Class
-* Extract Method
-* Form Template Method
-* Hide Delegate
-* Introduce Assertion
-* Introduce Null Object
-* Separate Query from Modifier
-* Move Field
-* Parameterize Method
-* Preserve Whole Object
-* Pull Up Method
-* Rename Method
-* Replace Array with Object
-* Replace Method with Method Object
-* Replace Temp with Query
-* Replace Type Code with Module Extension
-* Replace Type Code with Polymorphism
-* Replace Type Code with State/Strategy
